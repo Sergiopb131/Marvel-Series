@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: npm install
+      - run: npm update
       - run: npm install bootstrap
       - run: npm install axios
       - run: npm install md5
